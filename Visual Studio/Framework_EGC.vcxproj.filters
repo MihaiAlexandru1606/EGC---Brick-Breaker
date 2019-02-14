@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak">
+      <UniqueIdentifier>{95c02a77-64c8-41c7-80a1-a3cc90b01c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\transform2D">
+      <UniqueIdentifier>{5a77b4b8-887f-4939-8d64-77ddcf5872f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\object2D">
+      <UniqueIdentifier>{8e42ca8b-c18f-4b80-8060-14e9f8f39cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\level">
+      <UniqueIdentifier>{73abec1f-8f2f-4439-a551-060bf04a6304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\level\brick">
+      <UniqueIdentifier>{f0a2952e-0d9e-432f-b4f4-2e8bc0b21465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\level\wall">
+      <UniqueIdentifier>{2613d6ac-361f-42f6-8397-355b88677f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\level\ball">
+      <UniqueIdentifier>{e3faf94d-2110-4ebd-962c-4cc688566522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\level\powerup">
+      <UniqueIdentifier>{a27b29ab-7809-4aee-b590-c4e9f1cce632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\collision">
+      <UniqueIdentifier>{3b9f869f-044a-4feb-9ca9-0683f4791f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BrickBreak\level\paddle">
+      <UniqueIdentifier>{df2ef491-82bc-4178-a490-2915183ecb97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\object2D\Object2D.cpp">
+      <Filter>BrickBreak\object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\BrickBreaker.cpp">
+      <Filter>BrickBreak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\Brick.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\SandLimeBrick.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\ClayBrick.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\FireBrick.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\EngineeringBrick.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\ball\Ball.cpp">
+      <Filter>BrickBreak\level\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\collision\Collision.cpp">
+      <Filter>BrickBreak\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\wall\Wall.cpp">
+      <Filter>BrickBreak\level\wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\paddle\Paddle.cpp">
+      <Filter>BrickBreak\level\paddle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\powerup\PowerUp.cpp">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\Level.cpp">
+      <Filter>BrickBreak\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\MudBrick.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\Level1.cpp">
+      <Filter>BrickBreak\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\brick\BrickFactory.cpp">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\powerup\SuperBall.cpp">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\powerup\HugeBall.cpp">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\powerup\ExtraLife.cpp">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\powerup\PowerUpFactory.cpp">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\Level2.cpp">
+      <Filter>BrickBreak\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\Level3.cpp">
+      <Filter>BrickBreak\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\Level4.cpp">
+      <Filter>BrickBreak\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BrickBreak\level\LevelFactory.cpp">
+      <Filter>BrickBreak\level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\object2D\Object2D.h">
+      <Filter>BrickBreak\object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\transform2D\Transform2D.h">
+      <Filter>BrickBreak\transform2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\BrickBreaker.h">
+      <Filter>BrickBreak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\Brick.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\SandLimeBrick.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\ClayBrick.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\FireBrick.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\EngineeringBrick.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\ball\Ball.h">
+      <Filter>BrickBreak\level\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\collision\Collision.h">
+      <Filter>BrickBreak\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\wall\Wall.h">
+      <Filter>BrickBreak\level\wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\paddle\Paddle.h">
+      <Filter>BrickBreak\level\paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\powerup\PowerUp.h">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\Level.h">
+      <Filter>BrickBreak\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\MudBrick.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\brick\BrickFactory.h">
+      <Filter>BrickBreak\level\brick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\Level1.h">
+      <Filter>BrickBreak\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\powerup\SuperBall.h">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\powerup\HugeBall.h">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\powerup\ExtraLife.h">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\powerup\PowerUpFactory.h">
+      <Filter>BrickBreak\level\powerup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\Level2.h">
+      <Filter>BrickBreak\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\Level3.h">
+      <Filter>BrickBreak\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\Level4.h">
+      <Filter>BrickBreak\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BrickBreak\level\LevelFactory.h">
+      <Filter>BrickBreak\level</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
