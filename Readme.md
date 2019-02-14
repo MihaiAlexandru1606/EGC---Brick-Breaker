@@ -112,4 +112,5 @@ powerUp si o functie care adunce in  stare initila.
 caramizilor. Fiecare clasa implementeza Level. Afisare vietilor se face in coltul
 stanga sus.
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 <div style="text-align:center"><img src ="https://ibb.co/YdLR3FG" /></div>
